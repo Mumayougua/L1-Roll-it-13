@@ -133,7 +133,7 @@ while comp_score < game_goal and user_score < game_goal:
 
     game_results = (f"Round {rounds_played}: User Points {user_points} |"
                     f"Computer Points {comp_points}, {winner} wins"
-                    f"({user_score} \ {comp_score})")
+                    f"({user_score} {comp_score})")
 
     game_history.append(game_results)
 
